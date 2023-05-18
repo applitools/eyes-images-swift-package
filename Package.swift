@@ -16,7 +16,7 @@ let package = Package(
     ],
     targets: [
         .binaryTarget(name: "EyesImages",
-                      url: "https://applitools.jfrog.io/artifactory/iOS/EyesImagesSwiftPackage/4.11.0/EyesImages.xcframework.zip",
+                      url: "https://applitools.jfrog.io/ui/native/iOS/EyesImagesSwiftPackage/4.11.0/EyesImages.xcframework.zip",
                       checksum: "b3ed3270abdfb3cda49b61ea1a1bad50817ebbc7eb5063945e0d86b168cc8171"),
     ]
 )
