@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "EyesImages",
     platforms: [
-        .iOS(.v11)],
+        .iOS(.v13)],
     products: [
         .library(
             name: "EyesImages",
@@ -16,7 +16,7 @@ let package = Package(
     ],
     targets: [
         .binaryTarget(name: "EyesImages",
-                      url: "https://github.com/applitools/eyes-images-swift-package/releases/download/v4.14.2/EyesImages.xcframework.zip",
-                      checksum: "a5604d20a8c4d763860cf238e6c76f20acc16500943fbe2037a74c0f3461c5b1"),
+                      url: "https://github.com/applitools/eyes-images-swift-package/releases/download/v4.15.0/EyesImages.xcframework.zip",
+                      checksum: "c2ef3bdd957be3534ab64dab0ce4a8135dcf427c1ecc79582e41f602bfb81706"),
     ]
 )
