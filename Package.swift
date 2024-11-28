@@ -16,7 +16,7 @@ let package = Package(
     ],
     targets: [
         .binaryTarget(name: "EyesImages",
-                      url: "https://github.com/applitools/eyes-images-swift-package/releases/download/v5.0.1/EyesImages.xcframework.zip",
-                      checksum: "8b66918c67bff93704aff194cfb27b413d4b3c3fa3d71d569a7596e2dd625668"),
+                      url: "https://github.com/applitools/eyes-images-swift-package/releases/download/v5.0.2/EyesImages.xcframework.zip",
+                      checksum: "6c8a0c399450a5f67230c55d5930849439d06760ebe72f45e468d167240d2901"),
     ]
 )
